@@ -2,7 +2,7 @@ git init  //初始化版本库
 
 git add //添加文件到git
 
-git commit //提交
+git commit -m '内容' //提交
 
 git status //查看状态
 
