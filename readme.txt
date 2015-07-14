@@ -4,6 +4,8 @@ git add //添加文件到git
 
 git commit //提交
 
+git status //查看状态
+
 Git is a distributed version control system.
 Git is free software distributed under the GPL
 
