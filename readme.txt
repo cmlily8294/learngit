@@ -46,6 +46,8 @@ git remote -v  //查看远程详细信息
 
 git clone  https://github.com/cmlily8294/learngit.git //克隆远程库
 
+git pull  //拉取最新修改
+
 
 Creating a new branch is quick.
 Creating a new branch is quick.
