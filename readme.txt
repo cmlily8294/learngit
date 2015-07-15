@@ -38,6 +38,7 @@ git push -u origin master //推送到远程库 第一次推送时加 -u
 
 Creating a new branch is quick.
 Creating a new branch is quick.
+Creating a new branch is quick.
 
 Git is a distributed version control system.
 Git is free software distributed under the GPL
