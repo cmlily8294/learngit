@@ -25,6 +25,10 @@ git checkout -b dev  //创建分支并切换到分支，相当于以下两条命
 git branch dev
 git checkout dev
 
+
+git merge dev	//合并分支
+
+
 Creating a new branch is quick.
 
 Git is a distributed version control system.
