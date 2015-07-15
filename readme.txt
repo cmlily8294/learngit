@@ -21,6 +21,12 @@ it diff HEAD -- readme.txt ///与版本库最新版本比较
 git remote add origin https://github.com/cmlily8294/learngit.git //与远程库关联
 git push -u origin master //推送到远程库 第一次推送时加 -u
 
+git checkout -b dev  //创建分支并切换到分支，相当于以下两条命令：
+git branch dev
+git checkout dev
+
+Creating a new branch is quick.
+
 Git is a distributed version control system.
 Git is free software distributed under the GPL
 
