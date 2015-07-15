@@ -32,13 +32,13 @@ git push -u origin master //推送到远程库 第一次推送时加 -u
 合并某分支到当前分支：git merge [name]
 
 删除分支：git branch -d [name]
+git branch -D //强行删除分支
 
 --no-ff方式的git merge：
 git merge --no-ff -m "merge with no-ff" dev
 
 
 当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
-
 
 
 Creating a new branch is quick.
