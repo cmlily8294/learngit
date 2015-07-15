@@ -37,6 +37,9 @@ git push -u origin master //推送到远程库 第一次推送时加 -u
 git merge --no-ff -m "merge with no-ff" dev
 
 
+当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
+
+
 
 Creating a new branch is quick.
 
