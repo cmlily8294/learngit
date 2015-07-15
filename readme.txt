@@ -6,7 +6,7 @@ git commit -m '内容' //提交
 
 git status //查看状态
 
-it diff HEAD -- readme.txt ///与版本库最新版本比较
+git diff HEAD -- readme.txt ///与版本库最新版本比较
 
 /////////////////撤销修改////////////////
 
