@@ -21,12 +21,17 @@ it diff HEAD -- readme.txt ///与版本库最新版本比较
 git remote add origin https://github.com/cmlily8294/learngit.git //与远程库关联
 git push -u origin master //推送到远程库 第一次推送时加 -u
 
-git checkout -b dev  //创建分支并切换到分支，相当于以下两条命令：
-git branch dev
-git checkout dev
+查看分支：git branch
 
+创建分支：git branch [name]
 
-git merge dev	//合并分支
+切换分支：git checkout [name]
+
+创建+切换分支：git checkout -b [name]
+
+合并某分支到当前分支：git merge [name]
+
+删除分支：git branch -d [name]
 
 
 Creating a new branch is quick.
