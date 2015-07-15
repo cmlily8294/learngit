@@ -34,6 +34,8 @@ git push -u origin master //推送到远程库 第一次推送时加 -u
 删除分支：git branch -d [name]
 
 --no-ff方式的git merge：
+git merge --no-ff -m "merge with no-ff" dev
+
 
 
 Creating a new branch is quick.
