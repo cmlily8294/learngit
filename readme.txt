@@ -18,8 +18,6 @@ git diff HEAD -- readme.txt ///与版本库最新版本比较
 
 /////////////////撤销修改////////////////
 
-git remote add origin https://github.com/cmlily8294/learngit.git //与远程库关联
-git push -u origin master //推送到远程库 第一次推送时加 -u
 
 查看分支：git branch
 
@@ -39,6 +37,14 @@ git merge --no-ff -m "merge with no-ff" dev
 
 
 当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
+
+
+git remote add origin https://github.com/cmlily8294/learngit.git //与远程库关联
+git push -u origin master //推送到远程库 第一次推送时加 -u
+
+git remote -v  //查看远程详细信息
+
+git clone  https://github.com/cmlily8294/learngit.git //克隆远程库
 
 
 Creating a new branch is quick.
