@@ -1,3 +1,4 @@
+```bash
 git init  //初始化版本库
 
 git add //添加文件到git
@@ -10,11 +11,11 @@ git diff HEAD -- readme.txt ///与版本库最新版本比较
 
 /////////////////撤销修改////////////////
 
-场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
+//场景1：当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令git checkout -- file。
 
-场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。
+//场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令git reset HEAD file，就回到了场景1，第二步按场景1操作。
 
-场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
+//场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 
 /////////////////撤销修改////////////////
 
@@ -50,6 +51,7 @@ git pull  //拉取最新修改
 
 git log --pretty=oneline  //查看日志
 
+git reset --hard HEAD^   //版本回退 ^ 表示上一个版本，依次类推 ^^ 表示上两个版本  HEAD~100表示前100个版本
 
 
 
@@ -79,6 +81,4 @@ Creating a new branch is quick.
 Git is a distributed version control system.
 Git is free software distributed under the GPL
 
-changed
-
-changed*2
+```
