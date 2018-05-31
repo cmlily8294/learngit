@@ -33,11 +33,13 @@ git diff HEAD -- readme.txt ///与版本库最新版本比较
 删除分支：git branch -d [name]
 git branch -D //强行删除分支
 
---no-ff方式的git merge：
+--no-ff方式的git merge，不使用Fast forward模式：
 git merge --no-ff -m "merge with no-ff" dev
 
 
 当手头工作没有完成时，先把工作现场git stash一下，然后去修复bug，修复后，再git stash pop，回到工作现场。
+
+git stash list  //查看
 
 
 git remote add origin https://github.com/cmlily8294/learngit.git //与远程库关联
@@ -50,9 +52,15 @@ git clone  https://github.com/cmlily8294/learngit.git //克隆远程库
 git pull  //拉取最新修改
 
 git log --pretty=oneline  //查看日志
+git log --graph     //查看分支合并图。
 
 git reset --hard HEAD^   //版本回退 ^ 表示上一个版本，依次类推 ^^ 表示上两个版本  HEAD~100表示前100个版本
 
+git reset --hard 7e443a2  //回退到某个版本
+
+git reflog  //记录每次操作的命令，可以从中找到曾经回退的版本号
+
+git rm test.txt //从git版本库中删除某个文件
 
 
 https方式每次都要输入密码，按照如下设置即可输入一次就不用再手输入密码的困扰而且又享受https带来的极速
