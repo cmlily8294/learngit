@@ -48,6 +48,8 @@ git clone  https://github.com/cmlily8294/learngit.git //克隆远程库
 
 git pull  //拉取最新修改
 
+git log --pretty=oneline  //查看日志
+
 
 
 
