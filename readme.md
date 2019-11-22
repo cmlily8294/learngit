@@ -115,6 +115,10 @@ git checkout -b [name]
  git checkout -t origin/[name]
 
 ```
+### 清理无效的远程追踪分支
+```bash
+ git remote prune origin
+```
 ### 从某个tag创建新分支
 
 ```bash
